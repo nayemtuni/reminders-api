@@ -10,7 +10,7 @@ console.log(`Server is running on port ${process.env.PORT}`);
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.status(200).send('CI/CD Example API')
+  res.status(200).send('CI/CD Example API - new branch')
 })
 
 app.use('/reminders', (req, res) => {
